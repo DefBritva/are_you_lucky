@@ -6,7 +6,7 @@ import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
 
 void main() async {
   await dotenv.load();
-  // String apiKey = dotenv.env['API_KEY'] ?? '';
+  //// String apiKey = dotenv.env['API_KEY'] ?? '';
 
   runApp(const MainApp());
 }
