@@ -1,6 +1,20 @@
-allprojects {
+buildscript {
     repositories {
         google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.4.2"
+        classpath "com.google.gms:google-services:4.3.15"
+    }
+    tasks.withType(JavaCompile).configureEach {
+        options.release = 17
+    }
+}
+
+allprojects {
+    repositories {
+        google() // Also include here for app dependencies
         mavenCentral()
     }
 }
@@ -17,6 +31,3 @@ tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
 
-dependencies {
-    classpath 'com.google.gms:google-services:4.3.15' // Проверьте актуальную версию
-}

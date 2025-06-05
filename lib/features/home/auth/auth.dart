@@ -149,10 +149,7 @@ class _AuthState extends State<Auth> {
                     Text("Don't have an account? "),
                     GestureDetector(
                       onTap: () {
-                        // AppNavigation.goRegistration(context);
-                        context
-                            .read<AuthBloc>()
-                            .add(AuthEvent.addQuestionsToDb(questions: []));
+                        AppNavigation.goRegistration(context);
                       },
                       child: Text(
                         'Register',

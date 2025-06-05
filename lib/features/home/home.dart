@@ -234,102 +234,12 @@ class _HomeState extends State<Home> {
                       width: 200,
                       child: NeumorphicButton(
                         onPressed: () {
-                          // final randomIndex = Random().nextInt(3);
-                          // final navigator = navigators[randomIndex];
-                          // navigator(context);
-                          context
-                              .read<AuthBloc>()
-                              .add(AuthEvent.addQuestionsToDb(questions: [
-                                Question(
-                                  question: "What is the SI unit of force?",
-                                  a: "Joule",
-                                  b: "Watt",
-                                  c: "Newton",
-                                  d: "Pascal",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "Which law states that every action has an equal and opposite reaction?",
-                                  a: "Newton's First Law",
-                                  b: "Newton's Second Law",
-                                  c: "Newton's Third Law",
-                                  d: "Law of Gravitation",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "What does the conservation of energy principle state?",
-                                  a: "Energy can be destroyed",
-                                  b: "Energy can be created",
-                                  c: "Energy cannot be created or destroyed",
-                                  d: "Energy decreases over time",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "What type of wave requires a medium to travel through?",
-                                  a: "Electromagnetic wave",
-                                  b: "Light wave",
-                                  c: "Radio wave",
-                                  d: "Mechanical wave",
-                                  correct: "d",
-                                ),
-                                Question(
-                                  question:
-                                      "What is the acceleration due to gravity on Earth's surface?",
-                                  a: "6.67 m/s²",
-                                  b: "9.8 m/s²",
-                                  c: "10.2 m/s²",
-                                  d: "5.5 m/s²",
-                                  correct: "b",
-                                ),
-                                Question(
-                                  question:
-                                      "Which physicist developed the theory of relativity?",
-                                  a: "Isaac Newton",
-                                  b: "Niels Bohr",
-                                  c: "Albert Einstein",
-                                  d: "Galileo Galilei",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "What is the formula for kinetic energy?",
-                                  a: "mgh",
-                                  b: "½mv²",
-                                  c: "Fd",
-                                  d: "PV",
-                                  correct: "b",
-                                ),
-                                Question(
-                                  question:
-                                      "Which phenomenon explains why the sky appears blue?",
-                                  a: "Refraction",
-                                  b: "Reflection",
-                                  c: "Rayleigh scattering",
-                                  d: "Doppler effect",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "What subatomic particle has a positive charge?",
-                                  a: "Electron",
-                                  b: "Neutron",
-                                  c: "Proton",
-                                  d: "Photon",
-                                  correct: "c",
-                                ),
-                                Question(
-                                  question:
-                                      "Which law states that the pressure of a gas is inversely proportional to its volume at constant temperature?",
-                                  a: "Charles's Law",
-                                  b: "Avogadro's Law",
-                                  c: "Gay-Lussac's Law",
-                                  d: "Boyle's Law",
-                                  correct: "d",
-                                ),
-                              ]));
+                          final randomIndex = Random().nextInt(3);
+                          final navigator = navigators[randomIndex];
+                          navigator(context);
+                          // context
+                          //     .read<AuthBloc>()
+                          //     .add(AuthEvent.addQuestionsToDb(questions: []));
                         },
                         style: nStyle,
                         child: Center(
