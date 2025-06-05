@@ -1,9 +1,10 @@
 plugins {
     id "com.android.application"
     id 'com.google.gms.google-services' // Один раз здесь
-    id "kotlin-android"
+    id "org.jetbrains.kotlin.android"
     id "dev.flutter.flutter-gradle-plugin"
 }
+
 
 def localProperties = new Properties()
 def localPropertiesFile = rootProject.file("local.properties")
@@ -25,7 +26,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace = "com.example.are_you_lucky"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk 35
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -35,8 +36,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.are_you_lucky"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        minSdk = 23  // ✅ Direct value (no "minSdkVersion")
+        targetSdk = 35  // Aligns with Android 15 SDK :cite[6]
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
     }
@@ -50,6 +51,7 @@ android {
 
 dependencies {
     implementation 'com.google.firebase:firebase-analytics:21.3.0' // Добавьте Firebase зависимости здесь
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.22"
 }
 
 flutter {

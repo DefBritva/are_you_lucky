@@ -1,0 +1,2 @@
+/Users/defbri/Documents/FlutterProj/are_you_lucky/android/app/.cxx/RelWithDebInfo/t41161h3/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/defbri/Documents/FlutterProj/are_you_lucky/android/app/.cxx/RelWithDebInfo/t41161h3/arm64-v8a/CMakeFiles/edit_cache.dir

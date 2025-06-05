@@ -1,0 +1,2 @@
+/Users/defbri/Documents/FlutterProj/are_you_lucky/android/app/.cxx/Debug/29pe1k56/x86/CMakeFiles/rebuild_cache.dir
+/Users/defbri/Documents/FlutterProj/are_you_lucky/android/app/.cxx/Debug/29pe1k56/x86/CMakeFiles/edit_cache.dir
