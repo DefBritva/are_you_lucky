@@ -17,4 +17,31 @@ class AppNavigation {
   static void goMinefield(BuildContext context) {
     Navigator.pushReplacementNamed(context, AppRoutes.minefield);
   }
+
+  static void goQuiz(BuildContext context) {
+    Navigator.pushReplacementNamed(context, AppRoutes.quiz);
+  }
+
+  static void goProfile(BuildContext context) {
+    Navigator.pushReplacementNamed(context, AppRoutes.profile);
+  }
+
+  static void goAchievements(BuildContext context) {
+    Navigator.pushReplacementNamed(context, AppRoutes.achievements);
+  }
+
+  static void goRating(BuildContext context) {
+    Navigator.pushReplacementNamed(context, AppRoutes.rating);
+  }
+
+  static void goRegistration(BuildContext context) {
+    Navigator.pushReplacementNamed(context, AppRoutes.registration);
+  }
+
+  static final List<void Function(BuildContext)> navigators = [
+    AppNavigation.goDice,
+    AppNavigation.goFortuneW,
+    AppNavigation.goMinefield,
+    AppNavigation.goQuiz
+  ];
 }

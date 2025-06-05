@@ -12,4 +12,5 @@ class Images {
   static const String diceSixFacesThree =
       'assets/images/dice-six-faces-three.png';
   static const String diceSixFacesTwo = 'assets/images/dice-six-faces-two.png';
+  static const String quiz = 'assets/images/quiz.webp';
 }

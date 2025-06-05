@@ -8,12 +8,29 @@ environment:
   
 
 dependencies:
+  auto_size_text: ^3.0.0
+  bloc: ^8.1.4
+  cloud_firestore: ^5.6.8
+  delayed_display: ^2.0.0
+  dio: ^5.7.0
+  firebase_auth: ^5.3.2
+  firebase_core: ^3.13.1
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
   flutter_dotenv: ^5.2.1
   flutter_fortune_wheel: ^1.3.2
   flutter_neumorphic_plus: ^3.4.0
   flutter_svg: ^2.0.11
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.4
+  hydrated_bloc: ^9.1.5
+  json_annotation: ^4.9.0
+  loading_animation_widget: ^1.3.0
+  path_provider: ^2.1.5
+  path_provider_android: ^2.2.10
+  path_provider_ios: ^2.0.11
+  rxdart: ^0.28.0
   spider: ^4.2.2
   
   
@@ -22,9 +39,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.11
 
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
     - assets/icons/
+    - .env

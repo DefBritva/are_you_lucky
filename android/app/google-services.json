@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "711721095956",
+    "project_id": "are-u-lucky",
+    "storage_bucket": "are-u-lucky.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711721095956:android:3cb92a36d8f46bf79d6801",
+        "android_client_info": {
+          "package_name": "com.areulucky.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711721095956-6lj4usv0814vq3apeotj1q7n80d931d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKWdzoICj9ZrodfxSBPsIw07LACHr-s04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711721095956-6lj4usv0814vq3apeotj1q7n80d931d8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711721095956-fb996jv35nnunnkhcmi8123p2gqmu3q6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.areYouLucky"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:711721095956:android:11a2b7f08c8a5fb69d6801",
+        "android_client_info": {
+          "package_name": "com.example.are_you_lucky"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "711721095956-6lj4usv0814vq3apeotj1q7n80d931d8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKWdzoICj9ZrodfxSBPsIw07LACHr-s04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "711721095956-6lj4usv0814vq3apeotj1q7n80d931d8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "711721095956-fb996jv35nnunnkhcmi8123p2gqmu3q6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.areYouLucky"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

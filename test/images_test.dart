@@ -11,5 +11,6 @@ void main() {
     expect(File(Images.diceSixFacesSix).existsSync(), isTrue);
     expect(File(Images.diceSixFacesThree).existsSync(), isTrue);
     expect(File(Images.diceSixFacesTwo).existsSync(), isTrue);
+    expect(File(Images.quiz).existsSync(), isTrue);
   });
 }
